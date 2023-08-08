@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/*-----------------------------------------------------------------*/
+
+.padre{
+    width: 100vw ;
+    height: 100vh ;
+    background-image: url(./assets/fondo.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------------------------------------------------*/
+
+.hijo1{
+    background-color: rgb(240, 239, 239);
+    width: 40%;     
+    height: 80%;
+    margin-top: 30px;    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .5  );
+}
+
+
+.hijo1 h1{
+    margin: 0 1%;
+    font-size: 2.3rem;
+    color: #1E593A;
+    width: 60%;
+    height: 20%;
+    padding: 0 100px;
+}
+
+.hijo1 p{
+    margin: 10px 0 ;
+    color: #555;
+    width: 80%;
+    height: 10%;
+    padding: 0 5px;
+}
+
+.hijo1 h2{
+    color: #1E593A;
+    font-size: 25px;
+    margin: 10px 0;
+    width: 40%;     
+    height: 10%;
+}
+
+.hijo1 form{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 10px 85px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .5);
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hijo1 form input{
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .5);
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+
+.hijo1 form i{
+    padding: 10px 20px;
+    color: #a7a7a7;
+}
+
+/*-----------------------------BOTON------------------------------------*/
+
+.hijo1 form button{
+    background-image: linear-gradient(to bottom right, #19462E, #369362);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 8px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .5  );
+    cursor: pointer;
+}
+
+.hijo1 button:hover{
+    background-color: #4AB989;
+}
+
+/*-----------------------------------------------------------------*/
+.hijo2{
+    background-color: rgb(233, 233, 233);
+    width: 29.2%;     
+    height: 80%;
+    margin-top: 30px;    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .5);
+
+}
+
+.hijo2 img{
+    display: flex;
+    margin-top: 25px;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    top: 5;
+    left: 27%;
+    transition: transform 0.5s ease;
+}
+
+/*-------------------------RESPONSIVE FORM----------------------------------------*/
+
+@media screen and (max-width:750px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+
+
+
